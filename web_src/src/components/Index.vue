@@ -6,97 +6,17 @@
           <ul class="inline pull-right">
             <li>
               <router-link :to="link">{{link_text}}</router-link>&nbsp;&nbsp;&nbsp;
-              <a
-                target="_blank"
-                v-if="lang =='zh-cn'"
-                href="https://www.showdoc.cc/clients"
-              >客户端</a>
             </li>
           </ul>
         </div>
       </div>
-
-      <el-carousel :height="height" :autoplay="false" arrow="always">
+      <el-carousel :height="height" indicator-position="none" :autoplay="false" arrow="always">
         <el-carousel-item style="background-color: #1bbc9b;">
           <div class="slide">
             <img src="static/logo/b_64.png" alt />
             <h2>{{$t("section_title1")}}</h2>
             <p>
               <span v-html="$t('section_description1')"></span>
-            </p>
-            <p>
-              <a class="el-button" href="https://www.showdoc.cc/demo" target="_blank">{{$t("demo")}}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                class="el-button"
-                href="https://www.showdoc.cc/help"
-                target="_blank"
-              >{{$t("help")}}&nbsp;</a>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #2C606A;">
-          <div class="slide">
-            <h2>{{$t("section_title2")}}</h2>
-            <p>
-              <span v-html="$t('section_description2')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #f90;">
-          <div class="slide">
-            <h2>{{$t("section_title3")}}</h2>
-            <p>
-              <span v-html="$t('section_description3')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #7CBD9D;">
-          <div class="slide">
-            <h2>{{$t("section_title4")}}</h2>
-            <p>
-              <span v-html="$t('section_description4')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #A77DC2;">
-          <div class="slide">
-            <h2>{{$t("section_title5")}}</h2>
-            <p>
-              <span v-html="$t('section_description5')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #85CE92;">
-          <div class="slide">
-            <h2>{{$t("section_title6")}}</h2>
-            <p>
-              <span v-html="$t('section_description6')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #4BBFC3;">
-          <div class="slide">
-            <h2>{{$t("section_title7")}}</h2>
-            <p>
-              <span v-html="$t('section_description7')"></span>
-            </p>
-          </div>
-        </el-carousel-item>
-
-        <el-carousel-item style="background-color: #1bbc9b;">
-          <div class="slide">
-            <h2></h2>
-            <p>{{$t("section_description8")}}</p>
-            <p>
-              <el-button>
-                <router-link to="/user/login">{{$t("section_title8")}}</router-link>
-              </el-button>
             </p>
           </div>
         </el-carousel-item>
@@ -208,4 +128,9 @@ export default {
     font-size: 14px;
   }
 }
+</style>
+<style>
+  .el-carousel__arrow {
+    display: none;
+  }
 </style>

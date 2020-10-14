@@ -25,7 +25,7 @@ return array(
     //index
     'help' => '帮助',
     'demo' => '示例',
-    'index_login_or_register' => '登录 / 注册',
+    'index_login_or_register' => '登录',
     'my_item' => '我的项目',
     'section_title1' => 'ShowDoc',
     'section_description1' => '一个非常适合IT团队的在线API文档、技术文档工具',
@@ -49,7 +49,7 @@ return array(
     'redirect_message' => '如果你的浏览器没有自动跳转，请点击此链接',
     'click_to_goback' => '点击这里返回上一页',
     'home' => '首页',
-    
+
 
     //item/add
     'item_name' => '项目名',
@@ -127,7 +127,7 @@ return array(
     'click_to_delete'=>'点击可删除',
     'close'=>'关闭',
     "member_group_id" => "只读(只能查看项目，不能修改/删除)",
-    
+
     //page
     'input_page_title'=>'请输入页面标题',
     'level_2_directory'=>'二级目录',
@@ -213,7 +213,7 @@ return array(
 
     //error_message
     "no_delete_empty_catalog"=>'为了安全，不允许直接删除非空目录。请先删除或转移该目录下的所有页面',
-    
+
     "default_title" =>'默认页面',
 
 

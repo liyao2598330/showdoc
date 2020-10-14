@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import Index from '@/components/Index'
 import UserLogin from '@/components/user/Login'
 import UserSetting from '@/components/user/Setting'
-import UserRegister from '@/components/user/Register'
-import UserResetPassword from '@/components/user/ResetPassword'
-import ResetPasswordByUrl from '@/components/user/ResetPasswordByUrl'
+// import UserRegister from '@/components/user/Register'
+// import UserResetPassword from '@/components/user/ResetPassword'
+// import ResetPasswordByUrl from '@/components/user/ResetPasswordByUrl'
 import ItemIndex from '@/components/item/Index'
 import ItemAdd from '@/components/item/add/Index'
 import ItemPassword from '@/components/item/Password'
@@ -42,21 +42,21 @@ export default new Router({
       name: 'UserSetting',
       component: UserSetting
     },
-    {
-      path: '/user/register',
-      name: 'UserRegister',
-      component: UserRegister
-    },
-    {
-      path: '/user/resetPassword',
-      name: 'UserResetPassword',
-      component: UserResetPassword
-    },
-    {
-      path: '/user/ResetPasswordByUrl',
-      name: 'ResetPasswordByUrl',
-      component: ResetPasswordByUrl
-    },
+    // {
+    //   path: '/user/register',
+    //   name: 'UserRegister',
+    //   component: UserRegister
+    // },
+    // {
+    //   path: '/user/resetPassword',
+    //   name: 'UserResetPassword',
+    //   component: UserResetPassword
+    // },
+    // {
+    //   path: '/user/ResetPasswordByUrl',
+    //   name: 'ResetPasswordByUrl',
+    //   component: ResetPasswordByUrl
+    // },
     {
       path: '/item/index',
       name: 'ItemIndex',

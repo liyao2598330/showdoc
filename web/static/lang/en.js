@@ -3,7 +3,7 @@ exports.default = {
   // index
   help: 'Help',
   demo: 'Demo',
-  index_login_or_register: 'Login / Register',
+  index_login_or_register: 'Login',
   my_item: 'My items',
   section_title1: 'ShowDoc',
   section_description1: ' A tool greatly applicable for an IT team',

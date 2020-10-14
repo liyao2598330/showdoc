@@ -37,10 +37,6 @@
           <el-form-item label>
             <el-button type="primary" style="width:100%;" @click="onSubmit">{{$t("login")}}</el-button>
           </el-form-item>
-
-          <el-form-item label>
-            <router-link to="/user/register">{{$t("register_new_account")}}</router-link>&nbsp;&nbsp;&nbsp;
-          </el-form-item>
         </el-form>
       </el-card>
     </el-container>
